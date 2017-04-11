@@ -12,7 +12,7 @@ Tipsi Guideline for React-Native Development
 #### Good
 ```js
 <TextInput
-  onChangeText={this.handleUpdateUsername}
+  onChangeText={this.handleChangeUsername}
   onSubmitEditing={this.setPasswordInputActive}
 />
 ```
