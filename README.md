@@ -41,7 +41,7 @@ Tipsi Guideline for React-Native Development
 #### Good
 ```js
 <TextInput
-  ref={this.getPasswordInputInstance}
+  ref={this.setPasswordInputRef}
 />
 ```
 
