@@ -44,3 +44,29 @@ Tipsi Guideline for React-Native Development
   ref={this.getPasswordInputInstance}
 />
 ```
+
+### Style attribute
+#### Bad
+```js
+<TextInput
+  style={[styles.signInButton]}
+/>
+```
+#### Bad
+```js
+<TextInput
+  style={{ marginRight: 15, marginLeft: 16 }}
+/>
+```
+#### Good
+```js
+<TextInput
+  style={styles.signInButton}
+/>
+```
+#### Good
+```js
+<TextInput
+  style={[styles.signInButton, this.props.isActive && styles.signInButtonActive]}
+/>
+```
